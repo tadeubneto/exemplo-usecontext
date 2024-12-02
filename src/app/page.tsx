@@ -12,6 +12,7 @@ export default function Home() {
         
         <div className="p-6 rounded-lg border border-gray-200 dark:border-gray-700">
           <p>Este conteúdo se adapta ao tema atual!</p>
+          <p>Sua preferência de tema fica salva no LocalStorage!</p>
         </div>
       </div>
     </main>
