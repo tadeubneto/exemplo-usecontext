@@ -36,7 +36,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   return (
     <body className={theme}>
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            <div className={theme}>
+            <div>
                 {children}
             </div>
         </ThemeContext.Provider>
